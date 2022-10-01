@@ -1,0 +1,122 @@
+$colorprincipal: #cb7615d2;
+$colorsecundario: #00ffff9b;
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background-image: url(../Fotos/fondo2.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: 'Niconne', cursive;
+    min-height: 100vh;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+
+}
+
+@import "footer";
+@import "navbar";
+
+h1{
+    font-family: 'Kaushan Script', cursive;
+
+    color: #0303795d;
+    font-size: 2.5rem
+
+}
+
+
+
+.sec1ini{
+    margin: 30 auto;
+    padding: 20px;
+    
+}
+
+/*inicio carousel*/
+
+.carousel{
+    padding-left: 1rem;
+    margin: 1rem;
+    width: 95%;
+    text-align: center;
+
+    &-control-next-icon {
+    width: 2rem;
+    height: 2rem;
+    background-color: #752201;
+    color: green;
+    border-radius: 45%;
+    }
+    &-control-prev-icon{
+        width: 2rem;
+        height: 2rem;
+        background-color: #752201;
+        color: green;
+        border-radius: 45%;
+        }
+
+
+    .imgcarousel{
+    width: 350px;
+    height: 300px;
+    border-radius: 20%;
+    }
+}
+
+.h2inicio{
+    margin: 10px;
+    padding: 10px;
+    font-family: 'Niconne', cursive;
+    padding-left: 10px ;
+    padding-top: 10px;
+    padding-right:10px ;
+    padding-bottom: 10px; 
+    color: rgb(3, 3, 3);
+
+}
+
+
+
+/*inicio main index*/
+
+
+.row{
+    text-align: center;
+    img{
+        width: 250px; 
+        height: 200px;
+        border: 5px double grey;
+        border-radius: 25%;
+            &:hover{
+            transform: scale(1.1,1.1);
+            }
+       
+        }       
+    h3{
+            margin: 10px;
+            padding: 10px;
+            color: rgb(251, 248, 248);
+            font-style: bold;
+            font-weight: 100;
+            text-align: center;
+            font-size: 1.5rem;
+            & span{
+                background-color: $colorprincipal;}
+            
+            }    
+    p span{
+        margin-top: 3px;
+        font-style: bold;
+        font-size: 1.5rem;
+        background-color: $colorprincipal;
+        }            
+    }

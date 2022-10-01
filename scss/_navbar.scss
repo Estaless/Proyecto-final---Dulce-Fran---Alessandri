@@ -1,0 +1,29 @@
+/*inicio navbar*/
+
+.navbar{
+    background-color: $colorprincipal;
+    font-family: 'Niconne', cursive;
+    font-size: 1.5rem;
+    &-brand:hover{
+        transform: rotateZ(360deg);
+        animation-iteration-count: infinite;
+        transition: 2s;
+    }
+    & .dropdown-menu{
+    background-color: $colorprincipal;
+    font-family: 'Niconne', cursive;
+    font-size: 1.5rem;}
+    & .nav-item:hover{
+        background-color: $colorsecundario;
+        transition: 1s;
+        border-radius: 25%;
+    }
+    & .dropdown-item:hover{
+        background-color: aqua;
+       
+    }
+    
+
+}
+
+/*fin navbar*/

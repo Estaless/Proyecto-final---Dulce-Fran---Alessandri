@@ -1,0 +1,112 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(../Fotos/fondo2.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  font-family: "Niconne", cursive;
+  min-height: 100vh;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+}
+
+h1 {
+  font-family: "Kaushan Script", cursive;
+  color: rgba(3, 3, 121, 0.3647058824);
+  font-size: 2.5rem;
+}
+
+/*inicio navbar*/
+.navbar {
+  background-color: rgba(203, 118, 21, 0.8235294118);
+  font-family: "Niconne", cursive;
+  font-size: 1.5rem;
+}
+.navbar-brand:hover {
+  transform: rotateZ(360deg);
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  transition: 2s;
+}
+.navbar .dropdown-menu {
+  background-color: rgba(203, 118, 21, 0.8235294118);
+  font-family: "Niconne", cursive;
+  font-size: 1.5rem;
+}
+.navbar .nav-item:hover {
+  background-color: rgba(0, 255, 255, 0.6078431373);
+  transition: 1s;
+  border-radius: 25%;
+}
+.navbar .dropdown-item:hover {
+  background-color: aqua;
+}
+
+/*fin navbar*/
+.sec1ini {
+  margin: 30 auto;
+  padding: 20px;
+}
+
+/*inicio carousel*/
+.carousel {
+  padding: 1rem;
+  margin: 1rem;
+  width: 100%;
+  text-align: center;
+}
+.carousel-control-next-icon {
+  width: 2rem;
+  height: 2rem;
+  background-color: #752201;
+  color: green;
+  border-radius: 45%;
+}
+.carousel.imgcarousel {
+  width: 50px;
+  height: 300px;
+  border-radius: 20%;
+}
+
+.h2inicio {
+  margin: 10px;
+  padding: 10px;
+  font-family: "Niconne", cursive;
+  padding-left: 10px;
+  padding-top: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  color: rgb(3, 3, 3);
+}
+
+.row {
+  text-align: center;
+}
+.row img {
+  width: 250px;
+  height: 200px;
+  border: 5px double grey;
+  border-radius: 25%;
+}
+.row img:hover {
+  transform: scale(1.1, 1.1);
+}
+.row img p {
+  margin-top: 3px;
+  font-style: bold;
+}
+.row img h3 {
+  margin: 7px;
+  padding: 7px;
+  color: rgb(251, 248, 248);
+  font-style: bold;
+  font-weight: 100;
+  text-align: center;
+  font-size: 1rem;
+  background-color: rgba(203, 118, 21, 0.8235294118);
+}/*# sourceMappingURL=estilo.css.map */
