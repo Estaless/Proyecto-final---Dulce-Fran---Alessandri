@@ -24,6 +24,8 @@ body{
 
 @import "footer";
 @import "navbar";
+@import "main-index-productos";
+
 
 h1{
     font-family: 'Kaushan Script', cursive;
@@ -68,11 +70,12 @@ h1{
     .imgcarousel{
     width: 350px;
     height: 300px;
+    border: solid 3px $colorprincipal;
     border-radius: 20%;
     }
 }
 
-.h2inicio{
+.h2{
     margin: 10px;
     padding: 10px;
     font-family: 'Niconne', cursive;
@@ -85,38 +88,33 @@ h1{
 }
 
 
+    .director__texto{
+    background-color: rgba(182, 94, 31, 0.368);
+    color: black;
+    line-height: 1;
+    padding: 50px;
+    font-size: 1rem;
+    font-weight: bold;
+    font-family: 'Niconne', cursive;
+    position: relative;
 
-/*inicio main index*/
+}
 
 
-.row{
-    text-align: center;
-    img{
-        width: 250px; 
-        height: 200px;
-        border: 5px double grey;
-        border-radius: 25%;
-            &:hover{
-            transform: scale(1.1,1.1);
-            }
-       
-        }       
-    h3{
-            margin: 10px;
-            padding: 10px;
-            color: rgb(251, 248, 248);
-            font-style: bold;
-            font-weight: 100;
-            text-align: center;
-            font-size: 1.5rem;
-            & span{
-                background-color: $colorprincipal;}
-            
-            }    
-    p span{
-        margin-top: 3px;
-        font-style: bold;
-        font-size: 1.5rem;
-        background-color: $colorprincipal;
-        }            
-    }
+
+    
+    
+
+
+
+
+.video iframe{
+    width: 600px;
+    height: 300px;
+    margin: 20px;
+    padding: 15px;
+    border: 5px solid $colorprincipal
+    
+}
+
+                /*fin pagina nosotros*/
