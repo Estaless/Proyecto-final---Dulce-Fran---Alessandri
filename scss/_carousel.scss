@@ -1,0 +1,31 @@
+/*inicio carousel*/
+
+.carousel{
+    padding-left: 1rem;
+    margin: 1rem;
+    width: 95%;
+    text-align: center;
+
+    &-control-next-icon {
+    width: 2rem;
+    height: 2rem;
+    background-color: #752201;
+    color: green;
+    border-radius: 45%;
+    }
+    &-control-prev-icon{
+        width: 2rem;
+        height: 2rem;
+        background-color: #752201;
+        color: green;
+        border-radius: 45%;
+        }
+
+
+    .imgcarousel{
+    width: 350px;
+    height: 300px;
+    border: solid 3px $colorprincipal;
+    border-radius: 20%;
+    }
+}
