@@ -112,7 +112,7 @@ body {
 /*formulario*/
 .secform {
   width: 100%;
-  text-align: left; }
+  text-align: center; }
   .secform form {
     width: 25px;
     margin: 20px;
@@ -149,7 +149,7 @@ body {
         border: rgba(0, 115, 255, 0.934); }
     .secform fieldset textarea {
       max-width: 200px;
-      max-height: 1500px;
+      max-height: 200px;
       min-height: 100px;
       min-width: 100px; }
     .secform fieldset .input-enviar-limpiar {
@@ -160,11 +160,6 @@ body {
       .secform fieldset .input-enviar-limpiar:hover {
         background-color: #4c8ffb;
         cursor: pointer; }
-  .secform .mapa {
-    padding: 10px;
-    margin: 10px;
-    text-align: center;
-    position: absolute; }
 
 /* inicio footer*/
 .pie-pagina {
