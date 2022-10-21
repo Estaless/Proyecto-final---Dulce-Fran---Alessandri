@@ -1,31 +1,96 @@
 /*inicio carousel*/
 
-.carousel{
-    padding-left: 1rem;
-    margin: 1rem;
-    width: 95%;
-    text-align: center;
-
-    &-control-next-icon {
-    width: 2rem;
-    height: 2rem;
-    background-color: #752201;
-    color: green;
-    border-radius: 45%;
-    }
-    &-control-prev-icon{
+.carousel1{
+        padding-left: 1rem;
+        margin: 1rem;
+        width: 95%;
+        text-align: center;
+    
+        .carousel-control-next-icon {
         width: 2rem;
         height: 2rem;
         background-color: #752201;
         color: green;
         border-radius: 45%;
         }
-
-
-    .imgcarousel{
-    width: 350px;
-    height: 300px;
-    border: solid 3px $colorprincipal;
-    border-radius: 20%;
+        .carousel-control-prev-icon{
+            width: 2rem;
+            height: 2rem;
+            background-color: #752201;
+            color: green;
+            border-radius: 45%;
+            }
+        .imgcarousel{
+                width: 350px;
+                height: 300px;
+                border: solid 3px $colorprincipal;
+                border-radius: 20%;
+                }
+    
     }
-}
+
+
+
+.carousel2{
+        padding-left: 1rem;
+        margin: 1rem;
+        width: 95%;
+        text-align: center;
+    
+        .carousel-control-next-icon {
+        width: 2rem;
+        height: 2rem;
+        background-color: #752201;
+        color: green;
+        border-radius: 45%;
+        }
+        .carousel-control-prev-icon{
+            width: 2rem;
+            height: 2rem;
+            background-color: #752201;
+            color: green;
+            border-radius: 45%;
+            }
+
+            .carousel-inner{
+                background: aliceblue;
+                padding: 35px;
+                border-radius: 25px;
+                box-shadow: 0 5px 20px rgba(0,0,0,0.5);
+                img{
+                    width: 100px;
+                    height: 100px;
+                    margin: auto;
+                    border: 5px dashed $colorprincipal;
+                    border-radius: 50%;
+                    overflow: hidden;
+                }
+                .carousel-caption{
+                    position: static;
+                    padding-bottom: 15px;
+                    padding-top: 0;
+                    h5{
+                        font-size: 2rem;
+                        margin-bottom: 15px;
+                        margin-top: 25px;
+                        color: black;
+                        font-family: 'Niconne', cursive;
+                    }
+                    p{
+                        font-size: 1.1rem;
+                        color: #000;
+                        margin: auto;
+                        width: 70%;
+                        margin-bottom: 10px;
+                        font-family: 'Kaushan';
+                        font-weight: 300;
+                        letter-spacing: 2px;
+                        
+                    }
+                }
+        
+            }
+    }
+    
+
+ 

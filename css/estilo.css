@@ -11,7 +11,18 @@ body {
   font-family: 'Niconne', cursive;
   min-height: 100vh;
   display: grid;
-  grid-template-rows: auto 1fr auto; }
+  grid-template-rows: auto 1fr auto;
+  overflow-x: hidden; }
+
+@media (max-width: 576px) {
+  body {
+    background-image: url(../Fotos/fondo3.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover; }
+  h1, h2 {
+    color: aqua;
+    text-align: center; } }
 
 .sec1ini {
   margin: 30 auto;
@@ -40,6 +51,9 @@ body {
 
 /*fin navbar*/
 /*main-index-productos*/
+/*.bodyproducto{
+    overflow-x: hidden;
+}*/
 .row {
   text-align: center; }
   .row .img {
@@ -67,28 +81,77 @@ body {
     border-radius: 10px; }
 
 /*inicio carousel*/
-.carousel {
+.carousel1 {
   padding-left: 1rem;
   margin: 1rem;
   width: 95%;
   text-align: center; }
-  .carousel-control-next-icon {
+  .carousel1 .carousel-control-next-icon {
     width: 2rem;
     height: 2rem;
     background-color: #752201;
     color: green;
     border-radius: 45%; }
-  .carousel-control-prev-icon {
+  .carousel1 .carousel-control-prev-icon {
     width: 2rem;
     height: 2rem;
     background-color: #752201;
     color: green;
     border-radius: 45%; }
-  .carousel .imgcarousel {
+  .carousel1 .imgcarousel {
     width: 350px;
     height: 300px;
     border: solid 3px #cb7615d2;
     border-radius: 20%; }
+
+.carousel2 {
+  padding-left: 1rem;
+  margin: 1rem;
+  width: 95%;
+  text-align: center; }
+  .carousel2 .carousel-control-next-icon {
+    width: 2rem;
+    height: 2rem;
+    background-color: #752201;
+    color: green;
+    border-radius: 45%; }
+  .carousel2 .carousel-control-prev-icon {
+    width: 2rem;
+    height: 2rem;
+    background-color: #752201;
+    color: green;
+    border-radius: 45%; }
+  .carousel2 .carousel-inner {
+    background: aliceblue;
+    padding: 35px;
+    border-radius: 25px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.5); }
+    .carousel2 .carousel-inner img {
+      width: 100px;
+      height: 100px;
+      margin: auto;
+      border: 5px dashed #cb7615d2;
+      border-radius: 50%;
+      overflow: hidden; }
+    .carousel2 .carousel-inner .carousel-caption {
+      position: static;
+      padding-bottom: 15px;
+      padding-top: 0; }
+      .carousel2 .carousel-inner .carousel-caption h5 {
+        font-size: 2rem;
+        margin-bottom: 15px;
+        margin-top: 25px;
+        color: black;
+        font-family: 'Niconne', cursive; }
+      .carousel2 .carousel-inner .carousel-caption p {
+        font-size: 1.1rem;
+        color: #000;
+        margin: auto;
+        width: 70%;
+        margin-bottom: 10px;
+        font-family: 'Kaushan';
+        font-weight: 300;
+        letter-spacing: 2px; }
 
 /*main nosotros*/
 .mainnosotros {
@@ -98,13 +161,13 @@ body {
     color: black;
     line-height: 1.2;
     padding: 30px;
-    margin-bottom: 30px;
+    margin: 30px;
     font-size: 1.5rem;
     font-weight: bold;
     font-family: 'Niconne', cursive;
     position: relative;
     border-radius: 10%; }
-  .mainnosotros .imgnosotros {
+  .mainnosotros img {
     width: 35rem;
     border-radius: 30%;
     border: solid 0.2rem #00ffff9b; }
@@ -128,18 +191,25 @@ body {
     min-inline-size: min-content;
     border-width: 3px;
     border-style: groove;
-    border-color: silver;
+    border-color: #00ffff9b;
     border-image: initial;
     background-color: rgba(61, 61, 61, 0.455);
     text-align: center; }
     .secform fieldset legend {
-      color: black; }
+      color: #030303;
+      text-decoration: underline; }
+    .secform fieldset legend:hover {
+      background-color: #00ffff9b;
+      transition: 2s;
+      border-radius: 10%; }
     .secform fieldset label {
-      font-size: 1.5rem;
+      font-size: 1.4rem;
+      letter-spacing: 0.2rem;
+      text-align: center;
       display: inline-block;
-      width: 100%;
+      width: auto;
       font-weight: bold;
-      color: aqua; }
+      color: #00ffff9b; }
     .secform fieldset input, .secform fieldset textarea {
       margin-bottom: 20px;
       border: #752201 solid 1px;

@@ -1,14 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
 $colorprincipal: #cb7615d2;
 $colorsecundario: #00ffff9b;
 
 
 
 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+
 
 
 body{
@@ -20,8 +23,22 @@ body{
     min-height: 100vh;
     display: grid;
     grid-template-rows: auto 1fr auto;
+    overflow-x:hidden;
 }
-   
+   @media (max-width: 576px){
+    body{
+        background-image: url(../Fotos/fondo3.jpg);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size:cover;
+    }
+    h1, h2{
+        color: aqua;
+        text-align: center;
+    }
+   }
+
+
 .sec1ini{
     margin: 30 auto;
     padding: 20px;
