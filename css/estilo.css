@@ -51,9 +51,9 @@ body {
 
 /*fin navbar*/
 /*main-index-productos*/
-/*.bodyproducto{
-    overflow-x: hidden;
-}*/
+.mainproducto {
+  overflow-x: hidden; }
+
 .row {
   text-align: center; }
   .row .img {
