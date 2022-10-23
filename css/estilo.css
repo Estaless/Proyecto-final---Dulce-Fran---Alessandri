@@ -235,6 +235,7 @@ body {
         background-color: #4c8ffb;
         cursor: pointer; }
 
+/*inicio carrito*/
 .sectioncarrito {
   display: flex;
   justify-content: center;
@@ -258,6 +259,8 @@ body {
 
 .parrafocarrito {
   text-align: center; }
+  .parrafocarrito p {
+    font-size: 1rem; }
 
 @media (max-width: 576px) {
   .parrafocarrito p {

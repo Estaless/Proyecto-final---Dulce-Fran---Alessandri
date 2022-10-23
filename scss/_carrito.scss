@@ -1,3 +1,5 @@
+/*inicio carrito*/
+
 .sectioncarrito{
     display: flex;
     justify-content: center;
@@ -27,6 +29,9 @@
 
 .parrafocarrito{
     text-align: center;
+    p{
+        font-size: 1rem;
+    }
 }
 
 @media (max-width: 576px){
