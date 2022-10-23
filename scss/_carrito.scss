@@ -1,0 +1,38 @@
+.sectioncarrito{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+    padding: 30px;
+    .imgcarrito{
+        width:350px;
+        height: 250px;
+        overflow: hidden;
+        cursor: pointer;
+        box-shadow: 1px 10px 25px rgba(0,0,0,0.5);
+        margin: 15px;
+            img{
+            width: 400px;
+            height: 100%;
+            transition: 2s;
+            &:hover{
+                transform: translateX(-30%);
+                filter: brightness(80%)
+
+            }
+        }
+    }
+
+}
+
+.parrafocarrito{
+    text-align: center;
+}
+
+@media (max-width: 576px){
+    .parrafocarrito p{
+        margin: 5px;
+        background-color: aqua;
+        font-size: 1rem;
+    }
+}

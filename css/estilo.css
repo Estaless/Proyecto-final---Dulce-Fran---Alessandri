@@ -153,6 +153,10 @@ body {
         font-weight: 300;
         letter-spacing: 2px; }
 
+@media (max-width: 768px) {
+  .carousel2 {
+    display: none; } }
+
 /*main nosotros*/
 .mainnosotros {
   overflow-x: hidden; }
@@ -230,6 +234,36 @@ body {
       .secform fieldset .input-enviar-limpiar:hover {
         background-color: #4c8ffb;
         cursor: pointer; }
+
+.sectioncarrito {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 30px;
+  padding: 30px; }
+  .sectioncarrito .imgcarrito {
+    width: 350px;
+    height: 250px;
+    overflow: hidden;
+    cursor: pointer;
+    box-shadow: 1px 10px 25px rgba(0, 0, 0, 0.5);
+    margin: 15px; }
+    .sectioncarrito .imgcarrito img {
+      width: 400px;
+      height: 100%;
+      transition: 2s; }
+      .sectioncarrito .imgcarrito img:hover {
+        transform: translateX(-30%);
+        filter: brightness(80%); }
+
+.parrafocarrito {
+  text-align: center; }
+
+@media (max-width: 576px) {
+  .parrafocarrito p {
+    margin: 5px;
+    background-color: aqua;
+    font-size: 1rem; } }
 
 /* inicio footer*/
 .pie-pagina {

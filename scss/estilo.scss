@@ -8,12 +8,6 @@
 $colorprincipal: #cb7615d2;
 $colorsecundario: #00ffff9b;
 
-
-
-
-
-
-
 body{
     background-image: url(../Fotos/fondo2.jpg);
     background-repeat: no-repeat;
@@ -44,12 +38,15 @@ body{
     padding: 20px;
     
 }
+
+
                         /*imports*/
 @import "navbar";
 @import "main-index-productos";
 @import "carousel";
 @import "main-nosotros";
 @import "formulario";
+@import "carrito";
 @import "footer";
                         /*imports*/
 
